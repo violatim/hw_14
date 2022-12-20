@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    body{
+      padding: 10vw;
+    }
+    .title{
+      font-weight: bolder;
+    }
+    .form-control {
+      display: inline-block;
+      width: 20vw;
+    }
+    span{
+      line-height: 40px;
+    }
+  </style>
+</head>
+<body>
+<hr>
+<input type="text" id="item_input" class="form-control">
+<button id="add_item" onclick="isPalindrome()" class="btn btn-success">Add</button>
+<div>
+  <span class="title">Result:</span>
+  <span id="result"></span>
+</div>
+<hr>
+<input type="text" id="item_input1" class="form-control">
+<button id="add_item1" onclick="reverseString()" class="btn btn-success">Add</button>
+<div>
+  <span class="title">Result:</span>
+  <span id="result1"></span>
+</div>
+<hr>
+<input type="text" id="item_input2" class="form-control">
+<input type="text" id="item" class="form-control">
+<button id="add_item2" onclick=" countChar()" class="btn btn-success">Add</button>
+<div>
+  <span class="title">Result:</span>
+  <span id="result2"></span>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
